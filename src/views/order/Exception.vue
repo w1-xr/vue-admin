@@ -9,7 +9,7 @@
         <template slot-scope="props">
           <el-form label-position="left" inline class="demo-table-expand">
             <el-form-item label="ID："> 
-              <span>{{ props.row.id }}</span>
+              <span>{{ props.row.id }}</span>  
             </el-form-item>
             <el-form-item label="订单ID：">
               <span>{{ props.row.oid }}</span>
