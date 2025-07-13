@@ -8,7 +8,7 @@
       <el-table-column type="expand">
         <template slot-scope="props">
           <el-form label-position="left" inline class="demo-table-expand">
-            <el-form-item label="ID：">
+            <el-form-item label="ID："> 
               <span>{{ props.row.id }}</span>
             </el-form-item>
             <el-form-item label="订单ID：">
